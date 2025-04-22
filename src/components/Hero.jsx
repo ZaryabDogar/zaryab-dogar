@@ -135,7 +135,7 @@ const Hero = () => {
 									ease: 'easeInOut',
 								}}
 							>
-								<div className="h-12 w-12 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center overflow-hidden">
+								<div className="sm:h-12 sm:w-12 h-8 w-8 bg-indigo-100 dark:bg-indigo-900 rounded-full flex items-center justify-center overflow-hidden">
 									<img
 										src={reactLogo}
 										alt="React Logo"
@@ -156,7 +156,7 @@ const Hero = () => {
 									delay: 0.5,
 								}}
 							>
-								<div className="h-12 w-12 bg-[#FFFFFF] dark:bg-[#FFFFFF] rounded-full flex items-center justify-center overflow-hidden">
+								<div className="sm:h-12 sm:w-12 h-8 w-8 bg-[#FFFFFF] dark:bg-[#FFFFFF] rounded-full flex items-center justify-center overflow-hidden">
 									<img
 										src={nodeLogo}
 										alt="Node.js Logo"
@@ -177,7 +177,7 @@ const Hero = () => {
 									delay: 1,
 								}}
 							>
-								<div className="h-12 w-12 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center overflow-hidden">
+								<div className="sm:h-12 sm:w-12 h-8 w-8 bg-green-100 dark:bg-green-900 rounded-full flex items-center justify-center overflow-hidden">
 									<img
 										src={mdbLogo}
 										alt="MongoDB Logo"
@@ -197,7 +197,7 @@ const Hero = () => {
 									delay: 1.5,
 								}}
 							>
-								<div className="h-12 w-12 bg-white dark:bg-white rounded-full flex items-center justify-center overflow-hidden grayscale">
+								<div className="sm:h-12 sm:w-12 h-8 w-8 bg-white dark:bg-white rounded-full flex items-center justify-center overflow-hidden grayscale">
 									<img
 										src={nextLogo}
 										alt="Next.js Logo"

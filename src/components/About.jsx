@@ -4,7 +4,7 @@ import yourImage from '../assets/your-image.jpg';
 
 const About = () => {
 	return (
-		<section id="about" className="py-20 bg-white dark:bg-gray-900">
+		<section id="about" className="sm:py-20 py-14 bg-white dark:bg-gray-900">
 			<div className="container mx-auto px-6">
 				<motion.h2
 					className="text-3xl font-bold text-center text-gray-800 dark:text-white mb-12"
@@ -16,16 +16,16 @@ const About = () => {
 					About <span className="text-indigo-600 dark:text-indigo-400">Me</span>
 				</motion.h2>
 
-				<div className="flex flex-col md:flex-row items-center gap-12">
+				<div className="flex flex-col md:flex-row items-center sm:gap-12 gap-6 sm:py-0 py-8">
 					<motion.div
 						className="md:w-1/2"
-						initial={{ opacity: 0, x: -50 }}
+						initial={{ opacity: 0, y: -50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8 }}
 						viewport={{ once: true }}
 					>
 						<div className="relative">
-							<div className="w-full h-auto rounded-xl overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg grayscale">
+							<div className="w-full h-auto rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg grayscale">
 								<img
 									src={yourImage}
 									alt="About Zaryab"
@@ -33,7 +33,7 @@ const About = () => {
 								/>
 							</div>
 							<motion.div
-								className="absolute -bottom-6 -right-6 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
+								className="absolute sm:bottom-6 sm:right-6 -bottom-4 right-6 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
 								initial={{ scale: 0 }}
 								whileInView={{ scale: 1 }}
 								transition={{ delay: 0.5, duration: 0.5 }}
@@ -51,7 +51,7 @@ const About = () => {
 
 					<motion.div
 						className="md:w-1/2"
-						initial={{ opacity: 0, x: 50 }}
+						initial={{ opacity: 0, y: 50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8 }}
 						viewport={{ once: true }}
