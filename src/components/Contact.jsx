@@ -117,7 +117,7 @@ const Contact = () => {
 										href="mailto:zaryabdogar@gmail.com"
 										className="text-indigo-600 dark:text-indigo-400 hover:underline"
 									>
-										zaryabdogar@gmail.com
+										zaryabdogar23@gmail.com
 									</a>
 								</div>
 							</motion.div>

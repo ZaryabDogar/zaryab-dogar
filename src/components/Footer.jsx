@@ -25,7 +25,7 @@ const Footer = () => {
 						</a>
 
 						<a
-							href="https://linkedin.com/in/zaryabdogar"
+							href="https://www.linkedin.com/in/zaryab-dogar-0a8ab327b/"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-gray-400 hover:text-white transition"
@@ -36,7 +36,7 @@ const Footer = () => {
 						</a>
 
 						<a
-							href="mailto:zaryabdogar@gmail.com"
+							href="mailto:zaryabdogar23@gmail.com"
 							className="text-gray-400 hover:text-white transition"
 						>
 							<svg
