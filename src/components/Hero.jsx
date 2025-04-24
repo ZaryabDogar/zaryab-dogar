@@ -1,6 +1,7 @@
 // src/components/Hero.jsx
 import { ArrowDownIcon, SparklesIcon } from '@heroicons/react/24/solid';
 import { motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
 import mdbLogo from '../assets/mdb.png';
 import nextLogo from '../assets/next.png';
 import nodeLogo from '../assets/node.png';
@@ -39,7 +40,15 @@ const Hero = () => {
 							className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-4"
 						>
 							<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400">
-								Zaryab Dogar
+								<Typewriter
+									words={['Zaryab Dogar']}
+									loop={Infinity}
+									cursor
+									cursorStyle="|"
+									typeSpeed={100}
+									deleteSpeed={70}
+									delaySpeed={2000}
+								/>
 							</span>
 						</motion.h1>
 

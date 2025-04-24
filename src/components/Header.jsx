@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import { useState, useContext } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-
+import { Typewriter } from 'react-simple-typewriter';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +17,22 @@ const Header = () => {
   return (
     <header className={`sticky top-0 z-50 ${bgColor} backdrop-blur-md border-b ${borderColor} shadow-sm `}>
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <motion.a
-          href="#home"
-          className={`text-xl font-bold ${theme === 'light' ? 'bg-gradient-to-r from-purple-600 to-indigo-600' : 'bg-gradient-to-r from-purple-400 to-indigo-400'} bg-clip-text text-transparent`}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Zaryab Dogar
-        </motion.a>
+      <motion.a
+  href="#home"
+  className={`text-xl font-bold ${theme === 'light' ? 'bg-gradient-to-r from-purple-600 to-indigo-600' : 'bg-gradient-to-r from-purple-400 to-indigo-400'} bg-clip-text text-transparent`}
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <Typewriter
+    words={['Zaryab Dogar']}
+    loop={Infinity}
+    cursor
+    cursorStyle="_"
+    typeSpeed={100}
+    deleteSpeed={70}
+    delaySpeed={2000}
+  />
+</motion.a>
 
         <div className="flex items-center gap-4">
       
