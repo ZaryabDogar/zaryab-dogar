@@ -73,7 +73,9 @@ const Hero = () => {
 
 						<div className="flex flex-wrap gap-4">
 							<motion.a
-								href="#projects"
+								href="/cv.pdf" // Make sure this file exists in your `public` folder
+								target="_blank"
+								rel="noopener noreferrer"
 								className="px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-500 dark:to-purple-500 text-white rounded-lg shadow-lg hover:shadow-xl transition-all relative overflow-hidden group"
 								whileHover={{ scale: 1.05 }}
 								whileTap={{ scale: 0.95 }}
@@ -81,7 +83,7 @@ const Hero = () => {
 								animate={{ opacity: 1, y: 0 }}
 								transition={{ delay: 0.9, duration: 0.5 }}
 							>
-								<span className="relative z-10">View My Work</span>
+								<span className="relative z-10">View My CV</span>
 								<span className="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-500 dark:to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
 							</motion.a>
 
@@ -106,7 +108,7 @@ const Hero = () => {
 							className="mt-12 flex items-center justify-center md:justify-start"
 						>
 							<motion.a
-								href="#about"
+								href="#projects"
 								className="flex flex-col items-center text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
 								whileHover={{ y: [0, -5, 0] }}
 								transition={{ repeat: Infinity, duration: 1.5 }}
