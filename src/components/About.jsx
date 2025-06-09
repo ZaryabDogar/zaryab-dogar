@@ -40,7 +40,7 @@ const About = () => {
 								viewport={{ once: true }}
 							>
 								<div className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-									3+
+									3.5+
 								</div>
 								<div className="text-sm text-gray-600 dark:text-gray-400">
 									Years Experience
@@ -73,10 +73,10 @@ const About = () => {
 							transition={{ delay: 0.4, duration: 0.5 }}
 							viewport={{ once: true }}
 						>
-							I'm Zaryab, a dedicated and self-motivated Information Technology
-							student at Bahauddin Zakariya University. I specialize in building
-							full-stack MERN applications and love turning ideas into
-							interactive digital experiences.
+							I'm Zaryab Dogar, a dedicated and self-motivated Information
+							Technology graduate from Bahauddin Zakariya University. I
+							specialize in building full-stack MERN applications and love
+							turning ideas into interactive digital experiences.
 						</motion.p>
 
 						<motion.p
@@ -86,10 +86,10 @@ const About = () => {
 							transition={{ delay: 0.6, duration: 0.5 }}
 							viewport={{ once: true }}
 						>
-							I've explored a variety of technologies including .NET Core, PHP,
-							and Flutter, but my main focus is MERN stack development. I'm also
-							diving into UI/UX design and animations to make my projects stand
-							out.
+							While I’ve explored a variety of technologies including .NET Core,
+							PHP, and Flutter, my main focus remains on MERN stack development.
+							I’m also diving into UI/UX design and animations to make my
+							projects stand out.
 						</motion.p>
 
 						<motion.div
