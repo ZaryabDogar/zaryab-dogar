@@ -1,7 +1,7 @@
 // src/components/Projects.jsx
 import {
-  ArrowTopRightOnSquareIcon,
-  CodeBracketIcon,
+	ArrowTopRightOnSquareIcon,
+	CodeBracketIcon,
 } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
 import { useEffect } from 'react';
@@ -9,13 +9,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import cb from '../assets/cb.png';
+import ct from '../assets/ct.png';
 import nb from '../assets/nb.png';
 import st from '../assets/st.png';
 import tt from '../assets/tt.png';
 import url from '../assets/url.png';
+import vg from '../assets/vg.png';
 import zd from '../assets/zd.png';
-import ct from '../assets/ct.png';
-
 const projects = [
 	{
 		id: 1,
@@ -69,12 +70,48 @@ const projects = [
 		link: 'https://cullitons.netlify.app/',
 		github: 'https://github.com/ZaryabDogar/cullitons',
 		techStack: ['React', 'Other Tech stack'],
-		description: '  A streamlined vehicle booking system for scheduling, managing, and tracking rentals with ease',
+		description:
+			'  A streamlined vehicle booking system for scheduling, managing, and tracking rentals with ease',
 		image: ct,
 	},
-
-
-
+	{
+		id: 7,
+		title: 'AI Chat Builder',
+		link: 'https://ai-tallk.netlify.app/',
+		github: 'https://github.com/ZaryabDogar/ai-chat-bot',
+		techStack: [
+			'React',
+			'Node.js',
+			'Express',
+			'Google Gemini API',
+			'Aigurulab TTS',
+			'Tailwind CSS',
+			'Web Audio API',
+		],
+		description:
+			'A white-labeled conversational AI platform supporting both text and voice interactions with customizable prompts',
+		image: cb,
+	},
+	{
+		id: 7,
+		title: 'AI Short Video Generator',
+		link: 'https://ai-video-genrator.netlify.app/Create-new-video',
+		github: 'https://github.com/ZaryabDogar/Ai-Video_Genrator',
+		techStack: [
+			'Next.js',
+			'Tailwind CSS',
+			'Firebase',
+			'Convex',
+			'Inngest',
+			'Google Gemini API',
+			'AI Guru Lab',
+			'Deepgram',
+			'Remotion',
+		],
+		description:
+			'A full-stack AI-powered platform that converts user prompts into fully rendered short videos with AI-generated scripts, audio, images, and captions.',
+		image: vg,
+	},
 ];
 
 const AutoPlay = () => {
