@@ -157,7 +157,7 @@ const Projects = () => {
 							dynamicBullets: true,
 						}}
 						autoplay={{
-							delay: 2000,
+							delay: 5000,
 							disableOnInteraction: false,
 						}}
 						loop={true}
