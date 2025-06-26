@@ -6,11 +6,9 @@ import {
 	PhoneIcon,
 } from '@heroicons/react/24/solid';
 import { motion } from 'framer-motion';
-import {  useState } from 'react';
-
+import { useState } from 'react';
 
 const Contact = () => {
-
 	const [formData, setFormData] = useState({
 		name: '',
 		email: '',
@@ -160,7 +158,7 @@ const Contact = () => {
 										Location
 									</h4>
 									<p className="text-gray-600 dark:text-gray-400">
-										Multan, Pakistan
+										Lahore, Pakistan
 									</p>
 								</div>
 							</motion.div>
