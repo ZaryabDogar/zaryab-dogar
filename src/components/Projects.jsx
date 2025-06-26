@@ -164,7 +164,7 @@ const Projects = () => {
 						className="pb-12" // Add padding for pagination
 					>
 						<AutoPlay />
-						{projects.map((project) => (
+						{[...projects].reverse().map((project) => (
 							<SwiperSlide key={project.id}>
 								<ProjectCard project={project} />
 							</SwiperSlide>
