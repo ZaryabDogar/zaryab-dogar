@@ -11,7 +11,7 @@ const GitHubProjects = () => {
 		const fetchProjects = async () => {
 			try {
 				const response = await fetch(
-					'https://api.github.com/users/zaryabdogar/repos?sort=updated&per_page=6'
+					'https://api.github.com/users/zaryabdogar/repos?sort=updated&per_page=8'
 				);
 				const data = await response.json();
 				// setProjects(data.filter((repo) => !repo.fork && repo.description));
